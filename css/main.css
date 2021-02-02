@@ -1,0 +1,177 @@
+/* цвет основного теста: rgba(33, 33, 33, 1) */
+/* вторичный цвет текста: rgba(117, 117, 117, 1); */
+/* белый цвет: rgba(255, 255, 255, 1); */
+/* цвет акцента: rgba(33, 150, 243, 1) */
+/* цвет фона: #e5e5e5; */
+/* вторичный цвет фона: #F5F4FA */
+
+/* Styles for index.html */
+
+/* Hero */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.hero {
+  background-image: url(../images/hero-img.jpg);
+  background-color: #2f303a;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero .container {
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Button */
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  min-width: 200px;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgba(24, 140, 232, 1);
+}
+
+.hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Section */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+/* Features */
+
+.feature-list {
+  display: flex;
+}
+.feature-list .item + .item {
+  margin-left: 30px;
+}
+.feature-list .item {
+  width: 260px;
+}
+.feature-list .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.feature-list .text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.feature-list .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Works */
+
+.works-section {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+.works-list {
+  display: flex;
+}
+
+.works-list .item + .item {
+  margin-left: 30px;
+}
+
+/* Team */
+
+.team {
+  background-color: var(--secondary-bg-color);
+  margin-bottom: 0px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item {
+  width: 270px;
+  height: 428px;
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list .item + .item {
+  margin-left: 30px;
+}
+
+.team-list .title {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}

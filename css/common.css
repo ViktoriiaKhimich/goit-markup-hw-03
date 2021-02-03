@@ -30,7 +30,7 @@ body {
   margin: 0px;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .list {
@@ -52,6 +52,17 @@ body {
   padding-right: 15px;
 }
 
+.section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
 /* HEADER */
 
 .header {
@@ -60,7 +71,7 @@ body {
 
 .logo {
   color: var(--accent-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -71,7 +82,7 @@ body {
 .studio {
   margin-right: 93px;
   color: var(--title-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;

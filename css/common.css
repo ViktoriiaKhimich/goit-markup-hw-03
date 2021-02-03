@@ -26,6 +26,16 @@ html {
   --secondary-bg-color: rgb(245, 244, 250);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
 body {
   margin: 0px;
   background-color: var(--primary-bg-color);
@@ -72,6 +82,12 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* HEADER */

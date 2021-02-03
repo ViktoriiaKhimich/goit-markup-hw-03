@@ -12,6 +12,10 @@ html {
   box-sizing: inherit;
 }
 
+main {
+  background-color: #ffffff;
+}
+
 .filters-list {
   display: flex;
   justify-content: center;
@@ -46,16 +50,16 @@ html {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .projects-list .item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
   height: 404px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
   border: 1px solid #eeeeee;
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .projects-list .item:nth-child(3n) {

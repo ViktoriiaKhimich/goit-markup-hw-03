@@ -196,6 +196,10 @@ img {
   background-color: #2f303a;
 }
 
+.box {
+  width: 270px;
+}
+
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
